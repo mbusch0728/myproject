@@ -14,4 +14,4 @@ def vote(request, poll_id):
 
 from django.http import HttpResponseRedirect
 def redirect_to_polls(request):
-return HttpResponseRedirect('/polls/')
+    return HttpResponseRedirect('/polls/')
