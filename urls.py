@@ -10,7 +10,6 @@ urlpatterns = patterns('',
     (r'^polls/(\d+)/results/$', 'polls.views.results'),
     (r'^polls/(\d+)/vote/$', 'polls.views.vote'),
     (r'^$', 'polls.views.redirect_to_polls'),
-    (r'^polls/$', 'polls.views.index'),
     # Examples:
     # url(r'^$', 'myproject.views.home', name='home'),
     # url(r'^myproject/', include('myproject.foo.urls')),
