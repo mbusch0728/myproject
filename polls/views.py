@@ -1,7 +1,7 @@
 # Create your views here.
 from django.http import HttpResponse
 def redirect_to_polls(request):
-    return HttpResponseRedirect(‘/polls/’)
+return HttpResponseRedirect(‘/polls/’)
 
 def index(request):
     return HttpResponse("Hello, Ambrosia I like your body. You're at the poll index.")
